@@ -7,8 +7,8 @@ public class OnSiteWorker extends Worker {
 		super(name, surname);
 	}
 	
-	@SuppressWarnings("deprecation")
-	@Override
+	
+	@Override@Deprecated
 	public float calculateSalary(float hours) {
 	
 		return super.calculateSalary(hours)+(fuel);

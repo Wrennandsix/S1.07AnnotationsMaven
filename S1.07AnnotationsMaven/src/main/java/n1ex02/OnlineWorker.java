@@ -9,7 +9,7 @@ public class OnlineWorker extends Worker {
 	}
 
 
-	@SuppressWarnings("deprecation")
+	@Override@Deprecated
 	public float calculateSalary(float hours) {
 		
 		return super.calculateSalary(hours)+(internet);
