@@ -8,7 +8,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface JsonSerialize {
-
-		String directory() default "";
-	}
-
+	String directory() default "";
+}

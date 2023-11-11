@@ -8,8 +8,8 @@ public class OnlineWorker extends Worker {
 		super(name, surname);
 	}
 
+
 	@SuppressWarnings("deprecation")
-	@Override
 	public float calculateSalary(float hours) {
 		
 		return super.calculateSalary(hours)+(internet);

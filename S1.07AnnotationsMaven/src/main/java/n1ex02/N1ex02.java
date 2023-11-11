@@ -6,13 +6,16 @@ public class N1ex02 {
 	public static void main(String[] args) {
 		
 		OnlineWorker javi = new OnlineWorker("Javi", "Peña");
-		System.out.println(javi.getName2());
+		
 		
 		OnSiteWorker pepe = new OnSiteWorker("Pepe","EtSech");
-		System.out.println(pepe.getSurname2());
+		
 		
 		Worker carlos = new Worker("Carlos", "Ortega");
-		System.out.println(carlos.calculateSalary(42.2f));
+				
+		System.out.println(javi.getName2()+" "+javi.getSurname2()+", Te un sou de: "+javi.calculateSalary(40.2f)+" Euros");
+		System.out.println(pepe.getName2()+" "+pepe.getSurname2()+", Te un sou de: "+pepe.calculateSalary(40.2f)+" Euros");
+		System.out.println(carlos.getName()+" "+carlos.getSurname()+", Te un sou de: "+carlos.calculateSalary(40.2f)+" Euros");
 		
 	}
 

@@ -10,7 +10,7 @@ public class N1ex01 {
 		
 		System.out.println(javi.getName()+" "+javi.getSurname()+", Te un sou de: "+javi.calculateSalary(40.2f)+" Euros");
 		System.out.println(pepe.getName()+" "+pepe.getSurname()+", Te un sou de: "+pepe.calculateSalary(40.2f)+" Euros");
-		System.out.println(carlos.getName()+" "+carlos.getSurname()+", Te un sou de: "+carlos.calculateSalary(40.2f)+" Euros");;
+		System.out.println(carlos.getName()+" "+carlos.getSurname()+", Te un sou de: "+carlos.calculateSalary(40.2f)+" Euros");
 	}
 
 }

@@ -1,12 +1,14 @@
 package n2ex01;
 
+import com.google.gson.Gson;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import com.google.gson.Gson;
 
 public class JsonSerializer {
+	
     public static void serialize(Object obj) throws IOException, IllegalAccessException {
         Class<?> clazz = obj.getClass();
                
